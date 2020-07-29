@@ -1,0 +1,2 @@
+gortz					IN		NS	ns.gortz.ephec-ti.be
+ns.gortz.ephec-ti.be	IN		A	51.178.41.130
