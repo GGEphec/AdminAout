@@ -1,0 +1,17 @@
+options {
+	directory "/var/cache/bind/";
+
+	//recursion yes;
+
+	listen-on { any; };
+	listen-on-v6 { any; };
+
+	dnssec-validation auto;
+
+	auth-nxdomain no;	#conform to RFC0135	
+
+	forwarders {
+		0.0.0.0;
+	};
+
+};

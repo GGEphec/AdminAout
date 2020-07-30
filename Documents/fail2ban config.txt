@@ -1,0 +1,26 @@
+[DEFAULT]
+ignoreip = 192.168.1.21
+findtime = 1800
+maxretry = 5
+bantime = 3600
+
+
+[sshd]
+enabled = true
+
+
+[sshd-ddos]
+enabled = true
+
+
+[recidive]
+enabled = true
+
+
+[apache]
+enabled = true
+
+
+
+
+

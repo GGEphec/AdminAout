@@ -1,0 +1,24 @@
+view internal {
+	match-clients { internals; };
+	recursion yes;
+	allow-recursion { internals; };
+	zone "gortz.ephec-ti.be" {
+		type master;
+		file "/etc/bind/db.internal.gortz.ephec-ti.be";
+	};
+
+};
+
+
+
+view external {
+	match-clients { any; };
+	allow-transfer {"none";};
+	zone "gortz.ephec-ti.be" {
+		type master;
+		file "/etc/bind/db.gortz.ephec-ti.be";
+	
+	};
+
+
+};
