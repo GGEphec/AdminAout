@@ -1,0 +1,27 @@
+Bonjour Madame Van Den Schriek
+
+Concernant le projet d'admin réseaux, je souhaite le réaliser en mode 3 "Individuel". J'ai décidé d'implémenter le VoIP.
+
+Mon VPS est vps797956.ovh.net
+Mon nom de domaine sera gortz.ephec-ti.be
+Le github que j'utiliserai sera https://github.com/GGEphec/AdminAout
+Et mon dockerhub https://hub.docker.com/repository/docker/ggephec/adminaout
+
+Bien à vous
+
+Gaëtan GORTZ
+HE201732
+
+
+
+
+Pour ce qui est du principe général du projet, celui-ci est très bien car chaque groupe peut choisir quelque chose qui lui plait. Cependant, cela oblige les coachs à se plonger dans chaque projet, avec chaque technologie choisie par les étudiants. Je pense que fournir un pool de 5 ou 6 projets pouvant être réalisé dans différentes technologies serait plus judicieux. Une répartition des groupes, par coach, en fonction du projet choisis ou des technologies choisies serait plus simple. Devoir à chaque séance de coaching réexpliquer le projet et nos choix était une perte de temps. Cela permettrait d'avoir des conseils plus avisé sur le projet ou sur l'utilisation des technologies.
+Pour ce qui est de la grille d'évaluation, elle est assez complète et pourrait être rendue plus claire par une meilleure utilisation d'excel ( https://docs.google.com/spreadsheets/d/1CuRcdC7eMc-3WNa6fz4sWmgoGERHcogiiIi9sbJOaRw/edit?usp=sharing ). Avec une grille comme celle-la, on peut voir les différents blocs plus simplement. L'utilisation d'un fichier partagé entre le coach et le groupe, permettrait une plus grande transparence quand à la manière de coter, comme nous avions pour le projet d'admin réseaux.
+L'évaluation progressive était quelque peu déconcertante car elle n'allait pas toujours dans le même sens de semaine en semaine. Cela est peut-être du au fait que chaque coach devait se rappeler du projet et de la manière dont il sera implémenté.
+L'évaluation en distancielle était encore moins pratique qu'en présentiel. Certes il n'est pas des plus simple de fournir toutes les infos sur un temps limite mais devoir attendre plus de 3h pour avoir un coaching est un énorme frein. Tout d'abord car nous ne pouvions continuer à développer pendant ce temps la car dès que c'était à notre tour, il fallait quelque chose de fonctionnel à présenter. Changer à chaque fois de branche aurait pu être une solution mais cela nous obligeait à resynchroniser à chaque fois notre git et la connection de certain n'était pas des plus rapide. Concernant la connexion internet, notre coach n'avait pas la meilleure connexion, cela posait problème pour avoir des échanges compréhensibles sans grésillements ou déconnexion.
+L'utilisation de Teams aurait pu être plus pratique que Discord pour le partage d'écran.
+
+
+
+Les différents cours étaient très bien et nous permettaient d'avoir une idée plus précises de ce que vous attendiez de nous. Il n'était malheureusement pas toujours possible de mettre en application ce que l'on apprenait en cours de projet. Comme par exemple les techniques devops sont arrivées un peu tard, nous avions déjà commencé du code sans les appliquer et retravailler pour en tenir compte aurait pu être chronophage.
+Les workshops étaient un peu moins bien car souvent basés sur un cours en ligne du language ou d'Openclassroom. Ces tutos auraient et ont été fait par nous même chez nous dans le cadre de l’apprentissage de nos technologies. L'enseignant présentant le workshop ne maîtrisait pas forcément toutes les ficelles, voire seulement les bases, de son sujets.
