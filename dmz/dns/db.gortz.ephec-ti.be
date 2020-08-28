@@ -24,4 +24,6 @@ interne	IN	A	51.178.41.130
 
 
 ; voip
-
+_sip._udp	SRV	0	0	5060	sip
+_sip._tcp	SRV	0	0	5060	sip
+sip		IN	A	51.178.41.130

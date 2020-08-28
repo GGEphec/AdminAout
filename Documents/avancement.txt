@@ -1,0 +1,82 @@
+
+
+VPS Gaëtan		51.178.41.130
+
+
+DONE
+	ajout utilisateur ubuntu mdp devAdminGr4
+	ajout utilisateur vvandens mdp adminEphec2019
+	ajout de vvandes au sudoers
+	ajout clé publique vvandens
+	installation docker
+
+
+
+EXPLICATIONS
+	Création docker acceuilRoot avec la page web du site externe (NGINX)
+		pq nginx et pas Apache	: 	Répartition de la charge en cas d'afflux massif
+									Plus récent
+									Doc que en Anglais
+									Pas de site dynamique
+					
+	GlueRecord
+		gortz					IN		NS	ns.gortz.ephec-ti.be
+		ns.gortz.ephec-ti.be	IN		A	51.178.41.130
+
+	Fail2ban
+		Pour empécher le brute force en ssh
+		Pour empécher le DoS sur apache
+			[DEFAULT]
+			findtime = 1800
+			ignoreip = 192.168.1.21
+			maxretry = 5
+			bantime = 3600
+
+
+			[sshd]
+			enabled = true
+
+			[sshd-ddos]  
+			enable = true
+
+
+			[recidive]
+			enabled = true
+
+
+
+
+
+
+	
+
+
+TODO
+	Changer mdp ubuntu
+	Faire fail2ban pour éviter les intrusions
+	Faire les schémas
+	Linker le git et Dossier
+	FileZilla faire une copie du dossier
+
+
+
+
+
+NOTES
+	Outils Débug
+		Les outils de débug permettent de voir ce qu'il se passe
+
+	PORTS
+		port 80 pour HTTP
+		port 443 pour HTTPS
+		port UPD 53 pour DNS à ouvrir
+		port 22 SSH (ne pas supprimer)
+
+	Commandes docker
+		docker ps	-> voir les demons en cours
+		docker image ls 	-> voir les images déjà crée
+		docker build chemin -t nom 	-> crée une image docker à partir du chemin avec le nom donné
+		docker run image -d -p 8080:80 	-> lance l'image en démon avec les ports liés 80 interne 8080 externe
+		
+
+
