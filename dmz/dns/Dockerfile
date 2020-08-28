@@ -7,7 +7,7 @@ COPY db.internal.gortz.ephec-ti.be /etc/bind/zones/
 COPY db.gortz.ephec-ti.be /etc/bind/zones/
 COPY named.conf /etc/bind/
 COPY named.conf.default-zones /etc/bind/
-COPY named.conf.loacl /etc/bind/
+COPY named.conf.local /etc/bind/
 COPY named.conf.options /etc/bind
 
 EXPOSE 53/tcp
