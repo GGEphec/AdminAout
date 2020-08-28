@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt-get update
 RUN apt-get install -y nginx
-RUN apt-get install -y apache
+RUN apt-get install -y apache2
 RUN apt-get install -y mysql
 run apt-get install -y php-fpm php-mysql
 
