@@ -71,6 +71,7 @@ NOTES
 		port 443 pour HTTPS
 		port UPD 53 pour DNS à ouvrir
 		port 22 SSH (ne pas supprimer)
+		port 3306 mysql
 
 	Commandes docker
 		docker ps	-> voir les demons en cours
