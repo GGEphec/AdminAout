@@ -3,7 +3,6 @@ FROM ubuntu:18.04
 RUN apt-get update
 RUN apt-get install -y nginx
 RUN apt-get install -y apache2
-run apt-get install -y php-fpm php-mysql
 
 RUN mkdir -p /var/www/app/b2b
 RUN mkdir -p /var/www/app/intranet
